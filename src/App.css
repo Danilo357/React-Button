@@ -1,22 +1,20 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.button1 {
+  background: #4a95d7;
   color: white;
+  font-size: 40px;
+  cursor: pointer;
+  width: 150px;
+  box-shadow: 0 6px #3d7db5;
+  outline: none;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #09d3ac;
+.click {
+  text-align: center;
+  padding-top: 50px;
+}
+
+button:active {
+  box-shadow: 0 6px white;
+  transform: translateY(4px);
 }
